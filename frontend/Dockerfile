@@ -1,4 +1,4 @@
-FROM php:7.2.34-apache
+FROM php:8.3-apache
 
 ADD . /var/www/html
 
