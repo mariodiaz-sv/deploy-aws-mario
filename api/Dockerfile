@@ -1,4 +1,4 @@
-FROM mikediazsv/phalcon-apache-ubuntu
+FROM phalconphp/php-apache:ubuntu-16.04
 
 ADD . /var/www/html
 
