@@ -12,7 +12,7 @@ services:
   calificaciones-front:
     container_name: calificaciones-frontend
     restart: always
-    image: php:7.2-apache
+    image: php:7.2.34-apache
     ports:
       - "8088:80"
     volumes:
