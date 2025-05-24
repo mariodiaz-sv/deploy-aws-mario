@@ -1,4 +1,4 @@
-version: '2'
+
 services:
   calificaciones-api:
     container_name: calificaciones-api
