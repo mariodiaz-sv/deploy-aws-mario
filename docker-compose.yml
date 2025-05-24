@@ -3,7 +3,7 @@ services:
   calificaciones-api:
     container_name: calificaciones-api
     restart: always
-    image: mikediazsv/phalcon-apache-ubuntu
+    image: phalconphp/php-apache:ubuntu-16.04
     ports:
       - "8080:80"
     volumes:
